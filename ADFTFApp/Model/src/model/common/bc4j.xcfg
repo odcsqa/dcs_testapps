@@ -3,12 +3,12 @@
    <AppModuleConfigBag ApplicationName="model.AppModule">
       <AppModuleConfig DeployPlatform="LOCAL" jbo.project="model.Model" name="AppModuleLocal" ApplicationName="model.AppModule">
          <Security AppModuleJndiName="model.AppModule"/>
-         <Custom JDBCDataSource="db1"/>
+         <Custom JDBCDataSource="db3"/>
       </AppModuleConfig>
       <AppModuleConfig DeployPlatform="LOCAL" jbo.project="model.Model" name="AppModuleShared" ApplicationName="model.AppModule">
          <AM-Pooling jbo.ampool.dynamicjdbccredentials="false" jbo.ampool.isuseexclusive="false" jbo.ampool.maxpoolsize="1" jbo.ampool.resetnontransactionalstate="false"/>
          <Security AppModuleJndiName="model.AppModule"/>
-         <Custom JDBCDataSource="db1"/>
+         <Custom JDBCDataSource="db3"/>
       </AppModuleConfig>
    </AppModuleConfigBag>
 </BC4JConfig>

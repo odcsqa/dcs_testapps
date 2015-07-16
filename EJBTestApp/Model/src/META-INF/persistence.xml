@@ -11,7 +11,7 @@
     <properties>
       <property name="eclipselink.target-server" value="WebLogic_10"/>
       <property name="javax.persistence.jtaDataSource"
-                value="db1"/>
+                value="db3"/>
     </properties>
   </persistence-unit>
 </persistence>
