@@ -12,13 +12,13 @@
                </snapshots>
                <id>remoteRepo</id>
                <name>remoteRepo</name>
-               <url>http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/profile/qa-dev/s/qa-dev_dcsqa-spotchecks-patchset-16-1-5/maven/</url>
+               <url>This projects maven repo url has to be added here</url>
              </repository>
               <repository>
                <snapshots/>
                <id>remoteRepoSnapshots</id>
                <name>remoteRepoSnapshots</name>
-               <url>http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/profile/qa-dev/s/qa-dev_dcsqa-spotchecks-patchset-16-1-5/maven/</url>
+               <url>This projects maven repo url has to be added here</url>
              </repository>
     </repositories>
     <pluginRepositories>
@@ -28,13 +28,13 @@
                </snapshots>
                <id>remoteRepo</id>
                <name>remoteRepo</name>
-               <url>http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/profile/qa-dev/s/qa-dev_dcsqa-spotchecks-patchset-16-1-5/maven/</url>
+               <url>This projects maven repo url has to be added here</url>
         </pluginRepository>
          <pluginRepository>
                <snapshots/>
                <id>remoteRepoSnapshots</id>
                <name>remoteRepoSnapshots</name>
-               <url>http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/profile/qa-dev/s/qa-dev_dcsqa-spotchecks-patchset-16-1-5/maven/</url>
+               <url>This projects maven repo url has to be added here</url>
          </pluginRepository>
     </pluginRepositories>
 </project>
