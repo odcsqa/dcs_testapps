@@ -1,0 +1,1868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <testsuite name="oracle.clouddev.test.selenium.tests.base.TestActivitySearch" errors="0" test="5" failures="0" skipped="0" timestamp="20160407T061236-0700" time="4330.305">
+    <testcase classname="oracle.clouddev.test.selenium.tests.base.TestActivitySearch" name="_class_init_" time="0.000">
+      <properties>
+        <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+        <property name="exec.mainClass" value="oracle.clouddev.test.selenium.RunTests"/>
+        <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_51/jre/lib/amd64"/>
+        <property name="java.vm.version" value="25.51-b03"/>
+        <property name="java.vm.vendor" value="Oracle Corporation"/>
+        <property name="java.vendor.url" value="http://java.oracle.com/"/>
+        <property name="guice.disable.misplaced.annotation.check" value="true"/>
+        <property name="path.separator" value=":"/>
+        <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+        <property name="file.encoding.pkg" value="sun.io"/>
+        <property name="user.country" value="US"/>
+        <property name="sun.java.launcher" value="SUN_STANDARD"/>
+        <property name="sun.os.patch.level" value="unknown"/>
+        <property name="http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+        <property name="user.dir" value="/home/builder/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests"/>
+        <property name="java.runtime.version" value="1.8.0_51-b16"/>
+        <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+        <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_51/jre/lib/endorsed"/>
+        <property name="os.arch" value="amd64"/>
+        <property name="java.io.tmpdir" value="/tmp"/>
+        <property name="line.separator" value="
+"/>
+        <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+        <property name="https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="os.name" value="Linux"/>
+        <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.0.4/bin/m2.conf"/>
+        <property name="sun.jnu.encoding" value="UTF-8"/>
+        <property name="http.proxyPort" value="80"/>
+        <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+        <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+        <property name="java.specification.name" value="Java Platform API Specification"/>
+        <property name="java.class.version" value="52.0"/>
+        <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+        <property name="os.version" value="3.8.13-55.1.1.el6uek.x86_64"/>
+        <property name="user.home" value="/home/builder"/>
+        <property name="user.timezone" value="PST8PDT"/>
+        <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+        <property name="file.encoding" value="UTF-8"/>
+        <property name="java.specification.version" value="1.8"/>
+        <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
+        <property name="user.name" value="builder"/>
+        <property name="java.vm.specification.version" value="1.8"/>
+        <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /home/c2c/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests/pom.xml --batch-mode exec:java -Dexec.mainClass=oracle.clouddev.test.selenium.RunTests -Dexec.args=selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=289 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="java.home" value="/usr/java/jdk1.8.0_51/jre"/>
+        <property name="sun.arch.data.model" value="64"/>
+        <property name="user.language" value="en"/>
+        <property name="java.specification.vendor" value="Oracle Corporation"/>
+        <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+        <property name="java.vm.info" value="mixed mode"/>
+        <property name="java.version" value="1.8.0_51"/>
+        <property name="securerandom.source" value="file:/dev/./urandom"/>
+        <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_51/jre/lib/ext:/usr/java/packages/lib/ext"/>
+        <property name="http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_51/jre/lib/resources.jar:/usr/java/jdk1.8.0_51/jre/lib/rt.jar:/usr/java/jdk1.8.0_51/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_51/jre/lib/jsse.jar:/usr/java/jdk1.8.0_51/jre/lib/jce.jar:/usr/java/jdk1.8.0_51/jre/lib/charsets.jar:/usr/java/jdk1.8.0_51/jre/lib/jfr.jar:/usr/java/jdk1.8.0_51/jre/classes"/>
+        <property name="java.vendor" value="Oracle Corporation"/>
+        <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.0.4"/>
+        <property name="file.separator" value="/"/>
+        <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+        <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+        <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+        <property name="sun.cpu.endian" value="little"/>
+        <property name="https.proxyPort" value="80"/>
+        <property name="exec.args" value="selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=289 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="sun.cpu.isalist" value=""/>
+        <property name="test.selenium.browser.size.h" value="960"/>
+        <property name="test.user.non-admin.name" value="tom.testsuite"/>
+        <property name="test.https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.user.admin.name" value="tina.testsuite"/>
+        <property name="test.user.em-agent.password" value="Welcome1!"/>
+        <property name="test.tag" value="base"/>
+        <property name="test.user.em-agent.fullname" value="Alex Admin"/>
+        <property name="test.selenium.port" value="44000"/>
+        <property name="test.build.number" value="289"/>
+        <property name="test.user.sdi-agent.enabled" value="true"/>
+        <property name="test.timeout.assert.condition" value="30"/>
+        <property name="test.target.version" value="{
+  &quot;buildInformation&quot; : {
+    &quot;gitCommitId&quot; : &quot;84b91eb9e1660e336bb9289583fdf62f88d10e16&quot;,
+    &quot;gitCommitMessage&quot; : &quot;Bug 23012667 - Check for valid ACCS account in the same ID Domain\n&quot;,
+    &quot;buildTime&quot; : &quot;05.04.2016 @ 21:54:38 PDT&quot;,
+    &quot;buildUser&quot; : &quot;Code2Cloud Builder&quot;
+  }
+}"/>
+        <property name="test.build.job" value="dcs_dcs.Release-Selenium-Tests"/>
+        <property name="test.timeout.project.create" value="660"/>
+        <property name="test.user.sdi-agent.name" value="alex.admin"/>
+        <property name="test.selenium.browser" value="firefox"/>
+        <property name="test.http.proxyPort" value="80"/>
+        <property name="test.user.sdi-agent.password" value="Welcome1!"/>
+        <property name="test.user.sdi-agent.fullname" value="Alex Admin"/>
+        <property name="test.timeout.selenium.navigate" value="20"/>
+        <property name="test.target.release" value="16.2.3.0.0"/>
+        <property name="test.byom.ip" value="127.0.0.1"/>
+        <property name="test.byom.port" value="8585"/>
+        <property name="test.notification.type" value="swing"/>
+        <property name="test.data.project.override" value=""/>
+        <property name="test.timeout.selenium.find" value="1"/>
+        <property name="test.user.em-agent.enabled" value="true"/>
+        <property name="test.testEmptyOrg.db.id" value=""/>
+        <property name="test.reviews.timeout.slowdown" value="0"/>
+        <property name="test.http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="test.capture.video" value="true"/>
+        <property name="test.user.non-admin.password" value="Welcome1!"/>
+        <property name="test.user.non-admin.fullname" value="Tom Testsuite"/>
+        <property name="test.user.admin.password" value="Welcome1!"/>
+        <property name="test.notification.history" value="3"/>
+        <property name="test.user.admin.fullname" value="Tina Testsuite"/>
+        <property name="test.capture.screenshots" value="true"/>
+        <property name="test.testEmptyOrg.db.connectString" value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=slc09iwb.us.oracle.com)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=dbpod)))"/>
+        <property name="test.firefox.bin" value=""/>
+        <property name="test.https.proxyPort" value="80"/>
+        <property name="test.develop.offline" value="false"/>
+        <property name="test.timeout.build.buildqueue.polling" value="60"/>
+        <property name="test.output.dir" value="target/test-reports/"/>
+        <property name="test.firefox.allowedHosts" value="localhost,localhost.localdomain"/>
+        <property name="test.testEmptyOrg.db.schema" value="BV2RLPNYEWMR"/>
+        <property name="test.web.url" value="http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/"/>
+        <property name="test.firefox.extensions" value=""/>
+        <property name="test.testEmptyOrg.orgExistsCheck" value="false"/>
+        <property name="test.data.dir" value="data/"/>
+        <property name="test.notification.font.size" value="15"/>
+        <property name="test.testEmptyOrg.service" value="devservice5"/>
+        <property name="test.selenium.start.server" value="false"/>
+        <property name="test.firefox.profile.path" value=""/>
+        <property name="test.selenium.host" value="localhost"/>
+        <property name="test.suite" value="BASE"/>
+        <property name="test.tests" value=""/>
+        <property name="test.user.admin.idm" value="dcsdevteam"/>
+        <property name="test.http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.testMethods" value=""/>
+        <property name="test.reviews.dontDeleteEnviroment" value="false"/>
+        <property name="test.selenium.browser.maximize" value="false"/>
+        <property name="test.firefox.profile.name" value=""/>
+        <property name="test.timeout.build.buildqueue" value="1200"/>
+        <property name="test.user.em-agent.idm" value="dcsdevteam"/>
+        <property name="test.selenium.remote" value="false"/>
+        <property name="test.user.sdi-agent.idm" value="dcsdevteam"/>
+        <property name="test.byom.authToken" value="123456"/>
+        <property name="test.proxy.autodetect" value="false"/>
+        <property name="test.testEmptyOrg.idm" value="dcsdevteam"/>
+        <property name="test.user.non-admin.idm" value="dcsdevteam"/>
+        <property name="test.data.tasks.useexisting" value="false"/>
+        <property name="test.selenium.browser.size.w" value="1280"/>
+        <property name="test.category" value="DEFAULT"/>
+        <property name="test.user.em-agent.name" value="alex.admin"/>
+        <property name="test.timeout.slowdown" value="0"/>
+      </properties>
+    </testcase>
+    <testcase classname="oracle.clouddev.test.selenium.tests.base.TestActivitySearch" name="testSearchActivityRestAPICallByRepoName" time="20.875">
+      <properties>
+        <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+        <property name="exec.mainClass" value="oracle.clouddev.test.selenium.RunTests"/>
+        <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_51/jre/lib/amd64"/>
+        <property name="java.vm.version" value="25.51-b03"/>
+        <property name="java.vm.vendor" value="Oracle Corporation"/>
+        <property name="java.vendor.url" value="http://java.oracle.com/"/>
+        <property name="guice.disable.misplaced.annotation.check" value="true"/>
+        <property name="path.separator" value=":"/>
+        <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+        <property name="file.encoding.pkg" value="sun.io"/>
+        <property name="user.country" value="US"/>
+        <property name="sun.java.launcher" value="SUN_STANDARD"/>
+        <property name="sun.os.patch.level" value="unknown"/>
+        <property name="http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+        <property name="user.dir" value="/home/builder/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests"/>
+        <property name="java.runtime.version" value="1.8.0_51-b16"/>
+        <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+        <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_51/jre/lib/endorsed"/>
+        <property name="os.arch" value="amd64"/>
+        <property name="java.io.tmpdir" value="/tmp"/>
+        <property name="line.separator" value="
+"/>
+        <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+        <property name="https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="os.name" value="Linux"/>
+        <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.0.4/bin/m2.conf"/>
+        <property name="sun.jnu.encoding" value="UTF-8"/>
+        <property name="http.proxyPort" value="80"/>
+        <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+        <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+        <property name="java.specification.name" value="Java Platform API Specification"/>
+        <property name="java.class.version" value="52.0"/>
+        <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+        <property name="os.version" value="3.8.13-55.1.1.el6uek.x86_64"/>
+        <property name="user.home" value="/home/builder"/>
+        <property name="user.timezone" value="PST8PDT"/>
+        <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+        <property name="file.encoding" value="UTF-8"/>
+        <property name="java.specification.version" value="1.8"/>
+        <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
+        <property name="user.name" value="builder"/>
+        <property name="java.vm.specification.version" value="1.8"/>
+        <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /home/c2c/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests/pom.xml --batch-mode exec:java -Dexec.mainClass=oracle.clouddev.test.selenium.RunTests -Dexec.args=selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=289 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="java.home" value="/usr/java/jdk1.8.0_51/jre"/>
+        <property name="sun.arch.data.model" value="64"/>
+        <property name="user.language" value="en"/>
+        <property name="java.specification.vendor" value="Oracle Corporation"/>
+        <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+        <property name="java.vm.info" value="mixed mode"/>
+        <property name="java.version" value="1.8.0_51"/>
+        <property name="securerandom.source" value="file:/dev/./urandom"/>
+        <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_51/jre/lib/ext:/usr/java/packages/lib/ext"/>
+        <property name="http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_51/jre/lib/resources.jar:/usr/java/jdk1.8.0_51/jre/lib/rt.jar:/usr/java/jdk1.8.0_51/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_51/jre/lib/jsse.jar:/usr/java/jdk1.8.0_51/jre/lib/jce.jar:/usr/java/jdk1.8.0_51/jre/lib/charsets.jar:/usr/java/jdk1.8.0_51/jre/lib/jfr.jar:/usr/java/jdk1.8.0_51/jre/classes"/>
+        <property name="java.vendor" value="Oracle Corporation"/>
+        <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.0.4"/>
+        <property name="file.separator" value="/"/>
+        <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+        <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+        <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+        <property name="sun.cpu.endian" value="little"/>
+        <property name="https.proxyPort" value="80"/>
+        <property name="exec.args" value="selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=289 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="sun.cpu.isalist" value=""/>
+        <property name="test.selenium.browser.size.h" value="960"/>
+        <property name="test.user.non-admin.name" value="tom.testsuite"/>
+        <property name="test.https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.user.admin.name" value="tina.testsuite"/>
+        <property name="test.user.em-agent.password" value="Welcome1!"/>
+        <property name="test.tag" value="base"/>
+        <property name="test.user.em-agent.fullname" value="Alex Admin"/>
+        <property name="test.selenium.port" value="44000"/>
+        <property name="test.build.number" value="289"/>
+        <property name="test.user.sdi-agent.enabled" value="true"/>
+        <property name="test.timeout.assert.condition" value="30"/>
+        <property name="test.target.version" value="{
+  &quot;buildInformation&quot; : {
+    &quot;gitCommitId&quot; : &quot;84b91eb9e1660e336bb9289583fdf62f88d10e16&quot;,
+    &quot;gitCommitMessage&quot; : &quot;Bug 23012667 - Check for valid ACCS account in the same ID Domain\n&quot;,
+    &quot;buildTime&quot; : &quot;05.04.2016 @ 21:54:38 PDT&quot;,
+    &quot;buildUser&quot; : &quot;Code2Cloud Builder&quot;
+  }
+}"/>
+        <property name="test.build.job" value="dcs_dcs.Release-Selenium-Tests"/>
+        <property name="test.timeout.project.create" value="660"/>
+        <property name="test.user.sdi-agent.name" value="alex.admin"/>
+        <property name="test.selenium.browser" value="firefox"/>
+        <property name="test.http.proxyPort" value="80"/>
+        <property name="test.user.sdi-agent.password" value="Welcome1!"/>
+        <property name="test.user.sdi-agent.fullname" value="Alex Admin"/>
+        <property name="test.timeout.selenium.navigate" value="20"/>
+        <property name="test.target.release" value="16.2.3.0.0"/>
+        <property name="test.byom.ip" value="127.0.0.1"/>
+        <property name="test.byom.port" value="8585"/>
+        <property name="test.notification.type" value="swing"/>
+        <property name="test.data.project.override" value=""/>
+        <property name="test.timeout.selenium.find" value="1"/>
+        <property name="test.user.em-agent.enabled" value="true"/>
+        <property name="test.testEmptyOrg.db.id" value=""/>
+        <property name="test.reviews.timeout.slowdown" value="0"/>
+        <property name="test.http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="test.capture.video" value="true"/>
+        <property name="test.user.non-admin.password" value="Welcome1!"/>
+        <property name="test.user.non-admin.fullname" value="Tom Testsuite"/>
+        <property name="test.user.admin.password" value="Welcome1!"/>
+        <property name="test.notification.history" value="3"/>
+        <property name="test.user.admin.fullname" value="Tina Testsuite"/>
+        <property name="test.capture.screenshots" value="true"/>
+        <property name="test.testEmptyOrg.db.connectString" value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=slc09iwb.us.oracle.com)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=dbpod)))"/>
+        <property name="test.firefox.bin" value=""/>
+        <property name="test.https.proxyPort" value="80"/>
+        <property name="test.develop.offline" value="false"/>
+        <property name="test.timeout.build.buildqueue.polling" value="60"/>
+        <property name="test.output.dir" value="target/test-reports/"/>
+        <property name="test.firefox.allowedHosts" value="localhost,localhost.localdomain"/>
+        <property name="test.testEmptyOrg.db.schema" value="BV2RLPNYEWMR"/>
+        <property name="test.web.url" value="http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/"/>
+        <property name="test.firefox.extensions" value=""/>
+        <property name="test.testEmptyOrg.orgExistsCheck" value="false"/>
+        <property name="test.data.dir" value="data/"/>
+        <property name="test.notification.font.size" value="15"/>
+        <property name="test.testEmptyOrg.service" value="devservice5"/>
+        <property name="test.selenium.start.server" value="false"/>
+        <property name="test.firefox.profile.path" value=""/>
+        <property name="test.selenium.host" value="localhost"/>
+        <property name="test.suite" value="BASE"/>
+        <property name="test.tests" value=""/>
+        <property name="test.user.admin.idm" value="dcsdevteam"/>
+        <property name="test.http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.testMethods" value=""/>
+        <property name="test.reviews.dontDeleteEnviroment" value="false"/>
+        <property name="test.selenium.browser.maximize" value="false"/>
+        <property name="test.firefox.profile.name" value=""/>
+        <property name="test.timeout.build.buildqueue" value="1200"/>
+        <property name="test.user.em-agent.idm" value="dcsdevteam"/>
+        <property name="test.selenium.remote" value="false"/>
+        <property name="test.user.sdi-agent.idm" value="dcsdevteam"/>
+        <property name="test.byom.authToken" value="123456"/>
+        <property name="test.proxy.autodetect" value="false"/>
+        <property name="test.testEmptyOrg.idm" value="dcsdevteam"/>
+        <property name="test.user.non-admin.idm" value="dcsdevteam"/>
+        <property name="test.data.tasks.useexisting" value="false"/>
+        <property name="test.selenium.browser.size.w" value="1280"/>
+        <property name="test.category" value="DEFAULT"/>
+        <property name="test.user.em-agent.name" value="alex.admin"/>
+        <property name="test.timeout.slowdown" value="0"/>
+      </properties>
+    <system-out>
+2016-04-07 06:12:15,926 INFO  [oracle.clouddev.test.selenium.util.RestRepositoryBuilder] Get repository list: http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/
+2016-04-07 06:12:15,933 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#74] GET http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/ HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-07 06:12:15,933 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#74] cURL: curl -k -u tina.testsuite:Welcome1! -X GET &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/&apos;
+2016-04-07 06:12:16,000 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#74] HTTP/1.1 200 OK
+2016-04-07 06:12:16,000 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#74] Content-Type: application/json;charset=UTF-8
+2016-04-07 06:12:16,000 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#74] Content-Length: 1099
+2016-04-07 06:12:16,000 DEBUG [oracle.clouddev.test.framework.rest.ResponseProcessors$ResponseParserAdapter] [request#74] Received data:{
+  &quot;scmRepositoryList&quot; : [ {
+    &quot;name&quot; : &quot;qa-test-repo1460034695509.git&quot;,
+    &quot;url&quot; : &quot;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/qa-test-repo1460034695509.git&quot;,
+    &quot;type&quot; : &quot;GIT&quot;,
+    &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+    &quot;alternateUrl&quot; : &quot;ssh://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com:2222/qa-dev_test-shared-project1-1460033913915/qa-test-repo1460034695509.git&quot;,
+    &quot;branches&quot; : [ ],
+    &quot;tags&quot; : [ ],
+    &quot;description&quot; : &quot;Description qa-test-repo1460034695509&quot;,
+    &quot;importInProgress&quot; : false,
+    &quot;head&quot; : &quot;master&quot;
+  }, {
+    &quot;name&quot; : &quot;test-shared-project1-1460033913915.git&quot;,
+    &quot;url&quot; : &quot;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/test-shared-project1-1460033913915.git&quot;,
+    &quot;type&quot; : &quot;GIT&quot;,
+    &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+    &quot;alternateUrl&quot; : &quot;ssh://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com:2222/qa-dev_test-shared-project1-1460033913915/test-shared-project1-1460033913915.git&quot;,
+    &quot;branches&quot; : [ ],
+    &quot;tags&quot; : [ ],
+    &quot;description&quot; : null,
+    &quot;importInProgress&quot; : false,
+    &quot;head&quot; : &quot;master&quot;
+  } ]
+}
+2016-04-07 06:12:16,001 INFO  [oracle.clouddev.test.selenium.util.RestRepositoryBuilder] creating new repository test-repo1460034735926.git in projectqa-dev_test-shared-project1-1460033913915
+2016-04-07 06:12:16,001 INFO  [oracle.clouddev.test.selenium.util.RestRepositoryBuilder] Create a new repository test-repo1460034735926.git : http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/
+2016-04-07 06:12:16,006 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#75] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/ HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-07 06:12:16,007 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#75] posted content:
+{
+  &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+  &quot;name&quot; : &quot;test-repo1460034735926.git&quot;,
+  &quot;description&quot; : &quot;Description test-repo1460034735926.git&quot;,
+  &quot;type&quot; : &quot;GIT&quot;,
+  &quot;branches&quot; : [ ],
+  &quot;tags&quot; : [ ]
+}
+2016-04-07 06:12:16,007 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#75] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,  &quot;name&quot; : &quot;test-repo1460034735926.git&quot;,  &quot;description&quot; : &quot;Description test-repo1460034735926.git&quot;,  &quot;type&quot; : &quot;GIT&quot;,  &quot;branches&quot; : [ ],  &quot;tags&quot; : [ ]}&apos;
+2016-04-07 06:12:16,296 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#75] HTTP/1.1 200 OK
+2016-04-07 06:12:16,296 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#75] Content-Type: application/json;charset=UTF-8
+2016-04-07 06:12:16,296 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#75] Content-Length: 547
+2016-04-07 06:12:16,297 DEBUG [oracle.clouddev.test.framework.rest.ResponseProcessors$ResponseParserAdapter] [request#75] Received data:{
+  &quot;scmRepository&quot; : {
+    &quot;name&quot; : &quot;test-repo1460034735926.git&quot;,
+    &quot;url&quot; : &quot;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/test-repo1460034735926.git&quot;,
+    &quot;type&quot; : &quot;GIT&quot;,
+    &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+    &quot;alternateUrl&quot; : &quot;ssh://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com:2222/qa-dev_test-shared-project1-1460033913915/test-repo1460034735926.git&quot;,
+    &quot;branches&quot; : [ ],
+    &quot;tags&quot; : [ ],
+    &quot;description&quot; : &quot;Description test-repo1460034735926.git&quot;,
+    &quot;importInProgress&quot; : false,
+    &quot;head&quot; : null
+  }
+}
+2016-04-07 06:12:16,297 INFO  [oracle.clouddev.test.selenium.util.RestRepositoryBuilder] Initialize repository test-repo1460034735926.git in projectqa-dev_test-shared-project1-1460033913915
+2016-04-07 06:12:16,297 INFO  [oracle.clouddev.test.selenium.util.RestRepositoryBuilder] Initiliaze repository : test-repo1460034735926.git : http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/init
+2016-04-07 06:12:16,303 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#76] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/init HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-07 06:12:16,303 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#76] posted content:
+{
+  &quot;authorEmail&quot; : &quot;&quot;,
+  &quot;commitMessage&quot; : &quot;Initial Commit for test-repo1460034735926.git&quot;,
+  &quot;authorName&quot; : &quot;Tina Testsuite&quot;,
+  &quot;repository&quot; : &quot;test-repo1460034735926.git&quot;
+}
+2016-04-07 06:12:16,303 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#76] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/init&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;authorEmail&quot; : &quot;&quot;,  &quot;commitMessage&quot; : &quot;Initial Commit for test-repo1460034735926.git&quot;,  &quot;authorName&quot; : &quot;Tina Testsuite&quot;,  &quot;repository&quot; : &quot;test-repo1460034735926.git&quot;}&apos;
+2016-04-07 06:12:16,596 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#76] HTTP/1.1 200 OK
+2016-04-07 06:12:16,596 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#76] Content-Type: application/json;charset=UTF-8
+2016-04-07 06:12:16,596 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#76] Content-Length: 2
+2016-04-07 06:12:16,597 DEBUG [oracle.clouddev.test.framework.rest.ResponseProcessors$ResponseParserAdapter] [request#76] Received data:{
+}
+2016-04-07 06:12:16,597 INFO  [oracle.clouddev.test.selenium.util.RestRepositoryBuilder] Get repository list: http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/
+2016-04-07 06:12:16,606 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#77] GET http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/ HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-07 06:12:16,606 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#77] cURL: curl -k -u tina.testsuite:Welcome1! -X GET &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/&apos;
+2016-04-07 06:12:16,658 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#77] HTTP/1.1 200 OK
+2016-04-07 06:12:16,659 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#77] Content-Type: application/json;charset=UTF-8
+2016-04-07 06:12:16,659 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#77] Content-Length: 1641
+2016-04-07 06:12:16,659 DEBUG [oracle.clouddev.test.framework.rest.ResponseProcessors$ResponseParserAdapter] [request#77] Received data:{
+  &quot;scmRepositoryList&quot; : [ {
+    &quot;name&quot; : &quot;qa-test-repo1460034695509.git&quot;,
+    &quot;url&quot; : &quot;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/qa-test-repo1460034695509.git&quot;,
+    &quot;type&quot; : &quot;GIT&quot;,
+    &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+    &quot;alternateUrl&quot; : &quot;ssh://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com:2222/qa-dev_test-shared-project1-1460033913915/qa-test-repo1460034695509.git&quot;,
+    &quot;branches&quot; : [ ],
+    &quot;tags&quot; : [ ],
+    &quot;description&quot; : &quot;Description qa-test-repo1460034695509&quot;,
+    &quot;importInProgress&quot; : false,
+    &quot;head&quot; : &quot;master&quot;
+  }, {
+    &quot;name&quot; : &quot;test-repo1460034735926.git&quot;,
+    &quot;url&quot; : &quot;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/test-repo1460034735926.git&quot;,
+    &quot;type&quot; : &quot;GIT&quot;,
+    &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+    &quot;alternateUrl&quot; : &quot;ssh://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com:2222/qa-dev_test-shared-project1-1460033913915/test-repo1460034735926.git&quot;,
+    &quot;branches&quot; : [ &quot;master&quot; ],
+    &quot;tags&quot; : [ ],
+    &quot;description&quot; : &quot;Description test-repo1460034735926.git&quot;,
+    &quot;importInProgress&quot; : false,
+    &quot;head&quot; : &quot;master&quot;
+  }, {
+    &quot;name&quot; : &quot;test-shared-project1-1460033913915.git&quot;,
+    &quot;url&quot; : &quot;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/test-shared-project1-1460033913915.git&quot;,
+    &quot;type&quot; : &quot;GIT&quot;,
+    &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+    &quot;alternateUrl&quot; : &quot;ssh://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com:2222/qa-dev_test-shared-project1-1460033913915/test-shared-project1-1460033913915.git&quot;,
+    &quot;branches&quot; : [ ],
+    &quot;tags&quot; : [ ],
+    &quot;description&quot; : null,
+    &quot;importInProgress&quot; : false,
+    &quot;head&quot; : &quot;master&quot;
+  } ]
+}
+2016-04-07 06:12:16,659 INFO  [oracle.clouddev.test.selenium.tests.base.TestHomePage] Get activities with Rest API call, pulling all activites
+2016-04-07 06:12:16,660 INFO  [oracle.clouddev.test.selenium.util.RestActivitiesList] Get activity list: http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/activity/list/qa-dev_test-shared-project1-1460033913915
+2016-04-07 06:12:16,665 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#78] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/activity/list/qa-dev_test-shared-project1-1460033913915 HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-07 06:12:16,665 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#78] posted content:
+{
+  &quot;types&quot; : [ ],
+  &quot;offset&quot; : 0,
+  &quot;count&quot; : 0
+}
+2016-04-07 06:12:16,665 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#78] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/activity/list/qa-dev_test-shared-project1-1460033913915&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;types&quot; : [ ],  &quot;offset&quot; : 0,  &quot;count&quot; : 0}&apos;
+2016-04-07 06:12:16,717 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#78] HTTP/1.1 200 OK
+2016-04-07 06:12:16,717 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#78] Content-Type: application/json;charset=UTF-8
+2016-04-07 06:12:16,717 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#78] Content-Length: -- no value --
+2016-04-07 06:12:16,719 DEBUG [oracle.clouddev.test.framework.rest.ResponseProcessors$ResponseParserAdapter] [request#78] Received data:{
+  &quot;queryResult&quot; : {
+    &quot;activities&quot; : [ {
+      &quot;id&quot; : 1616370,
+      &quot;timestamp&quot; : 1460034736000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034735926.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description test-repo1460034735926.git&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616369,
+      &quot;timestamp&quot; : 1460034729000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;qa-test-repo1460034703730.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;DELETED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616368,
+      &quot;timestamp&quot; : 1460034729000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034678174.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;DELETED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616367,
+      &quot;timestamp&quot; : 1460034729000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034723571.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;DELETED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616366,
+      &quot;timestamp&quot; : 1460034729000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034714489.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;DELETED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616363,
+      &quot;timestamp&quot; : 1460034728000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;qa-test-repo1460034664931.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;DELETED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616365,
+      &quot;timestamp&quot; : 1460034728000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034674003.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;DELETED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616364,
+      &quot;timestamp&quot; : 1460034728000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034715115.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;DELETED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616362,
+      &quot;timestamp&quot; : 1460034724000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034723571.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description test-repo1460034723571.git&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616361,
+      &quot;timestamp&quot; : 1460034716000,
+      &quot;type&quot; : &quot;SCM_PUSH&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;commits.size&quot; : &quot;1&quot;,
+        &quot;repository&quot; : &quot;test-repo1460034715115.git&quot;,
+        &quot;commits[0].hash&quot; : &quot;59c697d540e31bb3130ba43cc9c33715484866d1&quot;,
+        &quot;commits[0].comment&quot; : &quot;Initial Commit for test-repo1460034715115.git&quot;,
+        &quot;branch&quot; : &quot;master&quot;,
+        &quot;head&quot; : &quot;59c697d540e31bb3130ba43cc9c33715484866d1&quot;,
+        &quot;size&quot; : &quot;1&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616360,
+      &quot;timestamp&quot; : 1460034715000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034715115.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description test-repo1460034715115.git&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616359,
+      &quot;timestamp&quot; : 1460034715000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034714489.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description test-repo1460034714489.git&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616358,
+      &quot;timestamp&quot; : 1460034710000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;qa-test-repo1460034703730.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description qa-test-repo1460034703730&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616357,
+      &quot;timestamp&quot; : 1460034702000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;qa-test-repo1460034695509.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description qa-test-repo1460034695509&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616356,
+      &quot;timestamp&quot; : 1460034679000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034678174.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description test-repo1460034678174.git&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616355,
+      &quot;timestamp&quot; : 1460034675000,
+      &quot;type&quot; : &quot;SCM_PUSH&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;commits.size&quot; : &quot;1&quot;,
+        &quot;repository&quot; : &quot;test-repo1460034674003.git&quot;,
+        &quot;commits[0].hash&quot; : &quot;1743e89143c16fa7a860a92ba1059d7a6650da2c&quot;,
+        &quot;commits[0].comment&quot; : &quot;Initial Commit for test-repo1460034674003.git&quot;,
+        &quot;branch&quot; : &quot;master&quot;,
+        &quot;head&quot; : &quot;1743e89143c16fa7a860a92ba1059d7a6650da2c&quot;,
+        &quot;size&quot; : &quot;1&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616354,
+      &quot;timestamp&quot; : 1460034674000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034674003.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description test-repo1460034674003.git&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616352,
+      &quot;timestamp&quot; : 1460034670000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;qa-test-repo1460034664931.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description qa-test-repo1460034664931&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616353,
+      &quot;timestamp&quot; : 1460034670000,
+      &quot;type&quot; : &quot;SCM_PUSH&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;commits.size&quot; : &quot;1&quot;,
+        &quot;repository&quot; : &quot;qa-test-repo1460034664931.git&quot;,
+        &quot;commits[0].hash&quot; : &quot;acd654b6e95fecf340b340ace38d8b319d321310&quot;,
+        &quot;commits[0].comment&quot; : &quot;Initial Commit for qa-test-repo1460034664931.git&quot;,
+        &quot;branch&quot; : &quot;master&quot;,
+        &quot;commits[0].author&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;head&quot; : &quot;acd654b6e95fecf340b340ace38d8b319d321310&quot;,
+        &quot;size&quot; : &quot;1&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616336,
+      &quot;timestamp&quot; : 1460033918000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : null,
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-shared-project1-1460033913915.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616335,
+      &quot;timestamp&quot; : 1460033916000,
+      &quot;type&quot; : &quot;PROJECT&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+      }
+    } ],
+    &quot;totalCount&quot; : 21
+  }
+}
+2016-04-07 06:12:16,721 INFO  [oracle.clouddev.test.selenium.tests.base.TestHomePage] Number of activitites returned: 21
+2016-04-07 06:12:16,723 DEBUG [oracle.clouddev.test.selenium.junit.BrowserSession] navigating to project qa-dev_test-shared-project1-1460033913915 (http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460033913915)
+2016-04-07 06:12:16,779 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (oracle.clouddev.test.selenium.components.Conditions$5@5cfbc881) for element [By.xpath: .//button[@id=&apos;odcs-project-selector&apos;]/span[1]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460033913915.
+2016-04-07 06:12:18,222 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element is visible)) for element [By.id: page-provision] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460033913915.
+2016-04-07 06:12:19,713 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460033913915.
+2016-04-07 06:12:22,551 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;reviews&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460033913915.
+2016-04-07 06:12:22,634 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;reviews&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460033913915.
+2016-04-07 06:12:22,703 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;reviews&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460033913915.
+2016-04-07 06:12:24,052 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;reviews&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/reviews/mine_as_owner_all.
+2016-04-07 06:12:24,131 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;reviews&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/reviews/mine_as_owner_all.
+2016-04-07 06:12:29,532 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/reviews/mine_as_owner_all.
+2016-04-07 06:12:29,580 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/reviews/mine_as_owner_all.
+2016-04-07 06:12:29,661 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/reviews/mine_as_owner_all.
+2016-04-07 06:12:29,716 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/reviews/mine_as_owner_all.
+2016-04-07 06:12:31,236 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:12:31,319 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:12:36,503 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: //div[@id=&apos;odcs-user&apos;]/button[@id=&apos;odcs-user-name&apos;]/span[1]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:12:36,569 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: //div[@id=&apos;odcs-user&apos;]/button[@id=&apos;odcs-user-name&apos;]/span[1]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:12:36,635 INFO  [oracle.clouddev.test.selenium.util.RestActivitySearchBuilder] quering for the activity search in project
+2016-04-07 06:12:36,635 INFO  [oracle.clouddev.test.selenium.util.RestActivitySearchBuilder] Fetching the search activites results:http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/activity/search/qa-dev_test-shared-project1-1460033913915
+2016-04-07 06:12:36,639 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#79] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/activity/search/qa-dev_test-shared-project1-1460033913915 HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-07 06:12:36,639 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#79] posted content:
+{
+  &quot;types&quot; : [ ],
+  &quot;offset&quot; : 0,
+  &quot;query&quot; : &quot;test-repo1460034735926.git&quot;,
+  &quot;count&quot; : 10
+}
+2016-04-07 06:12:36,639 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#79] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/activity/search/qa-dev_test-shared-project1-1460033913915&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;types&quot; : [ ],  &quot;offset&quot; : 0,  &quot;query&quot; : &quot;test-repo1460034735926.git&quot;,  &quot;count&quot; : 10}&apos;
+2016-04-07 06:12:36,799 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#79] HTTP/1.1 200 OK
+2016-04-07 06:12:36,799 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#79] Content-Type: application/json;charset=UTF-8
+2016-04-07 06:12:36,800 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#79] Content-Length: -- no value --
+2016-04-07 06:12:36,800 DEBUG [oracle.clouddev.test.framework.rest.ResponseProcessors$ResponseParserAdapter] [request#79] Received data:{
+  &quot;searchResult&quot; : {
+    &quot;activities&quot; : [ {
+      &quot;activity&quot; : {
+        &quot;id&quot; : 1616371,
+        &quot;timestamp&quot; : 1460034737000,
+        &quot;type&quot; : &quot;SCM_PUSH&quot;,
+        &quot;author&quot; : {
+          &quot;username&quot; : &quot;tina.testsuite&quot;,
+          &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+          &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+          &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+        },
+        &quot;properties&quot; : {
+          &quot;commits.size&quot; : &quot;1&quot;,
+          &quot;repository&quot; : &quot;test-repo1460034735926.git&quot;,
+          &quot;commits[0].hash&quot; : &quot;11bac70d11492dbc03f39693c53a520f41bf41ec&quot;,
+          &quot;commits[0].comment&quot; : &quot;Initial Commit for test-repo1460034735926.git&quot;,
+          &quot;branch&quot; : &quot;master&quot;,
+          &quot;head&quot; : &quot;11bac70d11492dbc03f39693c53a520f41bf41ec&quot;,
+          &quot;size&quot; : &quot;1&quot;
+        }
+      },
+      &quot;score&quot; : 1,
+      &quot;matchedKeys&quot; : [ &quot;commits[0].comment&quot;, &quot;repository&quot; ]
+    }, {
+      &quot;activity&quot; : {
+        &quot;id&quot; : 1616370,
+        &quot;timestamp&quot; : 1460034736000,
+        &quot;type&quot; : &quot;SCM_REPO&quot;,
+        &quot;author&quot; : {
+          &quot;username&quot; : &quot;tina.testsuite&quot;,
+          &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+          &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+          &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+        },
+        &quot;properties&quot; : {
+          &quot;repoName&quot; : &quot;test-repo1460034735926.git&quot;,
+          &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+          &quot;repoDescription&quot; : &quot;Description test-repo1460034735926.git&quot;,
+          &quot;type&quot; : &quot;CREATED&quot;
+        }
+      },
+      &quot;score&quot; : 1,
+      &quot;matchedKeys&quot; : [ &quot;repoDescription&quot;, &quot;repoName&quot; ]
+    } ],
+    &quot;totalCount&quot; : 2,
+    &quot;highlightedTerms&quot; : [ &quot;test-repo1460034735926.git&quot; ]
+  }
+}
+    </system-out>
+    </testcase>
+    <testcase classname="oracle.clouddev.test.selenium.tests.base.TestActivitySearch" name="testSearchActivityHomePageUI" time="22.384">
+      <properties>
+        <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+        <property name="exec.mainClass" value="oracle.clouddev.test.selenium.RunTests"/>
+        <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_51/jre/lib/amd64"/>
+        <property name="java.vm.version" value="25.51-b03"/>
+        <property name="java.vm.vendor" value="Oracle Corporation"/>
+        <property name="java.vendor.url" value="http://java.oracle.com/"/>
+        <property name="guice.disable.misplaced.annotation.check" value="true"/>
+        <property name="path.separator" value=":"/>
+        <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+        <property name="file.encoding.pkg" value="sun.io"/>
+        <property name="user.country" value="US"/>
+        <property name="sun.java.launcher" value="SUN_STANDARD"/>
+        <property name="sun.os.patch.level" value="unknown"/>
+        <property name="http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+        <property name="user.dir" value="/home/builder/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests"/>
+        <property name="java.runtime.version" value="1.8.0_51-b16"/>
+        <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+        <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_51/jre/lib/endorsed"/>
+        <property name="os.arch" value="amd64"/>
+        <property name="java.io.tmpdir" value="/tmp"/>
+        <property name="line.separator" value="
+"/>
+        <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+        <property name="https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="os.name" value="Linux"/>
+        <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.0.4/bin/m2.conf"/>
+        <property name="sun.jnu.encoding" value="UTF-8"/>
+        <property name="http.proxyPort" value="80"/>
+        <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+        <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+        <property name="java.specification.name" value="Java Platform API Specification"/>
+        <property name="java.class.version" value="52.0"/>
+        <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+        <property name="os.version" value="3.8.13-55.1.1.el6uek.x86_64"/>
+        <property name="user.home" value="/home/builder"/>
+        <property name="user.timezone" value="PST8PDT"/>
+        <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+        <property name="file.encoding" value="UTF-8"/>
+        <property name="java.specification.version" value="1.8"/>
+        <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
+        <property name="user.name" value="builder"/>
+        <property name="java.vm.specification.version" value="1.8"/>
+        <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /home/c2c/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests/pom.xml --batch-mode exec:java -Dexec.mainClass=oracle.clouddev.test.selenium.RunTests -Dexec.args=selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=289 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="java.home" value="/usr/java/jdk1.8.0_51/jre"/>
+        <property name="sun.arch.data.model" value="64"/>
+        <property name="user.language" value="en"/>
+        <property name="java.specification.vendor" value="Oracle Corporation"/>
+        <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+        <property name="java.vm.info" value="mixed mode"/>
+        <property name="java.version" value="1.8.0_51"/>
+        <property name="securerandom.source" value="file:/dev/./urandom"/>
+        <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_51/jre/lib/ext:/usr/java/packages/lib/ext"/>
+        <property name="http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_51/jre/lib/resources.jar:/usr/java/jdk1.8.0_51/jre/lib/rt.jar:/usr/java/jdk1.8.0_51/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_51/jre/lib/jsse.jar:/usr/java/jdk1.8.0_51/jre/lib/jce.jar:/usr/java/jdk1.8.0_51/jre/lib/charsets.jar:/usr/java/jdk1.8.0_51/jre/lib/jfr.jar:/usr/java/jdk1.8.0_51/jre/classes"/>
+        <property name="java.vendor" value="Oracle Corporation"/>
+        <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.0.4"/>
+        <property name="file.separator" value="/"/>
+        <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+        <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+        <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+        <property name="sun.cpu.endian" value="little"/>
+        <property name="https.proxyPort" value="80"/>
+        <property name="exec.args" value="selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=289 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="sun.cpu.isalist" value=""/>
+        <property name="test.selenium.browser.size.h" value="960"/>
+        <property name="test.user.non-admin.name" value="tom.testsuite"/>
+        <property name="test.https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.user.admin.name" value="tina.testsuite"/>
+        <property name="test.user.em-agent.password" value="Welcome1!"/>
+        <property name="test.tag" value="base"/>
+        <property name="test.user.em-agent.fullname" value="Alex Admin"/>
+        <property name="test.selenium.port" value="44000"/>
+        <property name="test.build.number" value="289"/>
+        <property name="test.user.sdi-agent.enabled" value="true"/>
+        <property name="test.timeout.assert.condition" value="30"/>
+        <property name="test.target.version" value="{
+  &quot;buildInformation&quot; : {
+    &quot;gitCommitId&quot; : &quot;84b91eb9e1660e336bb9289583fdf62f88d10e16&quot;,
+    &quot;gitCommitMessage&quot; : &quot;Bug 23012667 - Check for valid ACCS account in the same ID Domain\n&quot;,
+    &quot;buildTime&quot; : &quot;05.04.2016 @ 21:54:38 PDT&quot;,
+    &quot;buildUser&quot; : &quot;Code2Cloud Builder&quot;
+  }
+}"/>
+        <property name="test.build.job" value="dcs_dcs.Release-Selenium-Tests"/>
+        <property name="test.timeout.project.create" value="660"/>
+        <property name="test.user.sdi-agent.name" value="alex.admin"/>
+        <property name="test.selenium.browser" value="firefox"/>
+        <property name="test.http.proxyPort" value="80"/>
+        <property name="test.user.sdi-agent.password" value="Welcome1!"/>
+        <property name="test.user.sdi-agent.fullname" value="Alex Admin"/>
+        <property name="test.timeout.selenium.navigate" value="20"/>
+        <property name="test.target.release" value="16.2.3.0.0"/>
+        <property name="test.byom.ip" value="127.0.0.1"/>
+        <property name="test.byom.port" value="8585"/>
+        <property name="test.notification.type" value="swing"/>
+        <property name="test.data.project.override" value=""/>
+        <property name="test.timeout.selenium.find" value="1"/>
+        <property name="test.user.em-agent.enabled" value="true"/>
+        <property name="test.testEmptyOrg.db.id" value=""/>
+        <property name="test.reviews.timeout.slowdown" value="0"/>
+        <property name="test.http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="test.capture.video" value="true"/>
+        <property name="test.user.non-admin.password" value="Welcome1!"/>
+        <property name="test.user.non-admin.fullname" value="Tom Testsuite"/>
+        <property name="test.user.admin.password" value="Welcome1!"/>
+        <property name="test.notification.history" value="3"/>
+        <property name="test.user.admin.fullname" value="Tina Testsuite"/>
+        <property name="test.capture.screenshots" value="true"/>
+        <property name="test.testEmptyOrg.db.connectString" value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=slc09iwb.us.oracle.com)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=dbpod)))"/>
+        <property name="test.firefox.bin" value=""/>
+        <property name="test.https.proxyPort" value="80"/>
+        <property name="test.develop.offline" value="false"/>
+        <property name="test.timeout.build.buildqueue.polling" value="60"/>
+        <property name="test.output.dir" value="target/test-reports/"/>
+        <property name="test.firefox.allowedHosts" value="localhost,localhost.localdomain"/>
+        <property name="test.testEmptyOrg.db.schema" value="BV2RLPNYEWMR"/>
+        <property name="test.web.url" value="http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/"/>
+        <property name="test.firefox.extensions" value=""/>
+        <property name="test.testEmptyOrg.orgExistsCheck" value="false"/>
+        <property name="test.data.dir" value="data/"/>
+        <property name="test.notification.font.size" value="15"/>
+        <property name="test.testEmptyOrg.service" value="devservice5"/>
+        <property name="test.selenium.start.server" value="false"/>
+        <property name="test.firefox.profile.path" value=""/>
+        <property name="test.selenium.host" value="localhost"/>
+        <property name="test.suite" value="BASE"/>
+        <property name="test.tests" value=""/>
+        <property name="test.user.admin.idm" value="dcsdevteam"/>
+        <property name="test.http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.testMethods" value=""/>
+        <property name="test.reviews.dontDeleteEnviroment" value="false"/>
+        <property name="test.selenium.browser.maximize" value="false"/>
+        <property name="test.firefox.profile.name" value=""/>
+        <property name="test.timeout.build.buildqueue" value="1200"/>
+        <property name="test.user.em-agent.idm" value="dcsdevteam"/>
+        <property name="test.selenium.remote" value="false"/>
+        <property name="test.user.sdi-agent.idm" value="dcsdevteam"/>
+        <property name="test.byom.authToken" value="123456"/>
+        <property name="test.proxy.autodetect" value="false"/>
+        <property name="test.testEmptyOrg.idm" value="dcsdevteam"/>
+        <property name="test.user.non-admin.idm" value="dcsdevteam"/>
+        <property name="test.data.tasks.useexisting" value="false"/>
+        <property name="test.selenium.browser.size.w" value="1280"/>
+        <property name="test.category" value="DEFAULT"/>
+        <property name="test.user.em-agent.name" value="alex.admin"/>
+        <property name="test.timeout.slowdown" value="0"/>
+      </properties>
+    <system-out>
+2016-04-07 06:12:36,801 INFO  [oracle.clouddev.test.selenium.util.RestRepositoryBuilder] Get repository list: http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/
+2016-04-07 06:12:36,805 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#80] GET http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/ HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-07 06:12:36,805 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#80] cURL: curl -k -u tina.testsuite:Welcome1! -X GET &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/&apos;
+2016-04-07 06:12:36,994 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#80] HTTP/1.1 200 OK
+2016-04-07 06:12:36,994 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#80] Content-Type: application/json;charset=UTF-8
+2016-04-07 06:12:36,994 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#80] Content-Length: 1641
+2016-04-07 06:12:36,994 DEBUG [oracle.clouddev.test.framework.rest.ResponseProcessors$ResponseParserAdapter] [request#80] Received data:{
+  &quot;scmRepositoryList&quot; : [ {
+    &quot;name&quot; : &quot;qa-test-repo1460034695509.git&quot;,
+    &quot;url&quot; : &quot;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/qa-test-repo1460034695509.git&quot;,
+    &quot;type&quot; : &quot;GIT&quot;,
+    &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+    &quot;alternateUrl&quot; : &quot;ssh://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com:2222/qa-dev_test-shared-project1-1460033913915/qa-test-repo1460034695509.git&quot;,
+    &quot;branches&quot; : [ ],
+    &quot;tags&quot; : [ ],
+    &quot;description&quot; : &quot;Description qa-test-repo1460034695509&quot;,
+    &quot;importInProgress&quot; : false,
+    &quot;head&quot; : &quot;master&quot;
+  }, {
+    &quot;name&quot; : &quot;test-repo1460034735926.git&quot;,
+    &quot;url&quot; : &quot;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/test-repo1460034735926.git&quot;,
+    &quot;type&quot; : &quot;GIT&quot;,
+    &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+    &quot;alternateUrl&quot; : &quot;ssh://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com:2222/qa-dev_test-shared-project1-1460033913915/test-repo1460034735926.git&quot;,
+    &quot;branches&quot; : [ &quot;master&quot; ],
+    &quot;tags&quot; : [ ],
+    &quot;description&quot; : &quot;Description test-repo1460034735926.git&quot;,
+    &quot;importInProgress&quot; : false,
+    &quot;head&quot; : &quot;master&quot;
+  }, {
+    &quot;name&quot; : &quot;test-shared-project1-1460033913915.git&quot;,
+    &quot;url&quot; : &quot;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/test-shared-project1-1460033913915.git&quot;,
+    &quot;type&quot; : &quot;GIT&quot;,
+    &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+    &quot;alternateUrl&quot; : &quot;ssh://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com:2222/qa-dev_test-shared-project1-1460033913915/test-shared-project1-1460033913915.git&quot;,
+    &quot;branches&quot; : [ ],
+    &quot;tags&quot; : [ ],
+    &quot;description&quot; : null,
+    &quot;importInProgress&quot; : false,
+    &quot;head&quot; : &quot;master&quot;
+  } ]
+}
+2016-04-07 06:12:36,994 INFO  [oracle.clouddev.test.selenium.util.RestRepositoryBuilder] creating new repository test-repo1460034756801.git in projectqa-dev_test-shared-project1-1460033913915
+2016-04-07 06:12:36,995 INFO  [oracle.clouddev.test.selenium.util.RestRepositoryBuilder] Create a new repository test-repo1460034756801.git : http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/
+2016-04-07 06:12:36,998 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#81] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/ HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-07 06:12:36,999 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#81] posted content:
+{
+  &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+  &quot;name&quot; : &quot;test-repo1460034756801.git&quot;,
+  &quot;description&quot; : &quot;Description test-repo1460034756801.git&quot;,
+  &quot;type&quot; : &quot;GIT&quot;,
+  &quot;branches&quot; : [ ],
+  &quot;tags&quot; : [ ]
+}
+2016-04-07 06:12:36,999 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#81] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,  &quot;name&quot; : &quot;test-repo1460034756801.git&quot;,  &quot;description&quot; : &quot;Description test-repo1460034756801.git&quot;,  &quot;type&quot; : &quot;GIT&quot;,  &quot;branches&quot; : [ ],  &quot;tags&quot; : [ ]}&apos;
+2016-04-07 06:12:37,620 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#81] HTTP/1.1 200 OK
+2016-04-07 06:12:37,620 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#81] Content-Type: application/json;charset=UTF-8
+2016-04-07 06:12:37,620 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#81] Content-Length: 547
+2016-04-07 06:12:37,620 DEBUG [oracle.clouddev.test.framework.rest.ResponseProcessors$ResponseParserAdapter] [request#81] Received data:{
+  &quot;scmRepository&quot; : {
+    &quot;name&quot; : &quot;test-repo1460034756801.git&quot;,
+    &quot;url&quot; : &quot;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/test-repo1460034756801.git&quot;,
+    &quot;type&quot; : &quot;GIT&quot;,
+    &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+    &quot;alternateUrl&quot; : &quot;ssh://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com:2222/qa-dev_test-shared-project1-1460033913915/test-repo1460034756801.git&quot;,
+    &quot;branches&quot; : [ ],
+    &quot;tags&quot; : [ ],
+    &quot;description&quot; : &quot;Description test-repo1460034756801.git&quot;,
+    &quot;importInProgress&quot; : false,
+    &quot;head&quot; : null
+  }
+}
+2016-04-07 06:12:37,620 INFO  [oracle.clouddev.test.selenium.util.RestRepositoryBuilder] Initialize repository test-repo1460034756801.git in projectqa-dev_test-shared-project1-1460033913915
+2016-04-07 06:12:37,620 INFO  [oracle.clouddev.test.selenium.util.RestRepositoryBuilder] Initiliaze repository : test-repo1460034756801.git : http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/init
+2016-04-07 06:12:37,624 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#82] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/init HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-07 06:12:37,625 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#82] posted content:
+{
+  &quot;authorEmail&quot; : &quot;&quot;,
+  &quot;commitMessage&quot; : &quot;Initial Commit for test-repo1460034756801.git&quot;,
+  &quot;authorName&quot; : &quot;Tina Testsuite&quot;,
+  &quot;repository&quot; : &quot;test-repo1460034756801.git&quot;
+}
+2016-04-07 06:12:37,625 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#82] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/init&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;authorEmail&quot; : &quot;&quot;,  &quot;commitMessage&quot; : &quot;Initial Commit for test-repo1460034756801.git&quot;,  &quot;authorName&quot; : &quot;Tina Testsuite&quot;,  &quot;repository&quot; : &quot;test-repo1460034756801.git&quot;}&apos;
+2016-04-07 06:12:37,949 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#82] HTTP/1.1 200 OK
+2016-04-07 06:12:37,949 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#82] Content-Type: application/json;charset=UTF-8
+2016-04-07 06:12:37,949 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#82] Content-Length: 2
+2016-04-07 06:12:37,949 DEBUG [oracle.clouddev.test.framework.rest.ResponseProcessors$ResponseParserAdapter] [request#82] Received data:{
+}
+2016-04-07 06:12:37,949 INFO  [oracle.clouddev.test.selenium.util.RestRepositoryBuilder] Get repository list: http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/
+2016-04-07 06:12:37,953 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#83] GET http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/ HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-07 06:12:37,953 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#83] cURL: curl -k -u tina.testsuite:Welcome1! -X GET &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/api/repository/&apos;
+2016-04-07 06:12:38,009 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#83] HTTP/1.1 200 OK
+2016-04-07 06:12:38,009 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#83] Content-Type: application/json;charset=UTF-8
+2016-04-07 06:12:38,009 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#83] Content-Length: 2183
+2016-04-07 06:12:38,010 DEBUG [oracle.clouddev.test.framework.rest.ResponseProcessors$ResponseParserAdapter] [request#83] Received data:{
+  &quot;scmRepositoryList&quot; : [ {
+    &quot;name&quot; : &quot;qa-test-repo1460034695509.git&quot;,
+    &quot;url&quot; : &quot;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/qa-test-repo1460034695509.git&quot;,
+    &quot;type&quot; : &quot;GIT&quot;,
+    &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+    &quot;alternateUrl&quot; : &quot;ssh://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com:2222/qa-dev_test-shared-project1-1460033913915/qa-test-repo1460034695509.git&quot;,
+    &quot;branches&quot; : [ ],
+    &quot;tags&quot; : [ ],
+    &quot;description&quot; : &quot;Description qa-test-repo1460034695509&quot;,
+    &quot;importInProgress&quot; : false,
+    &quot;head&quot; : &quot;master&quot;
+  }, {
+    &quot;name&quot; : &quot;test-repo1460034735926.git&quot;,
+    &quot;url&quot; : &quot;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/test-repo1460034735926.git&quot;,
+    &quot;type&quot; : &quot;GIT&quot;,
+    &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+    &quot;alternateUrl&quot; : &quot;ssh://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com:2222/qa-dev_test-shared-project1-1460033913915/test-repo1460034735926.git&quot;,
+    &quot;branches&quot; : [ &quot;master&quot; ],
+    &quot;tags&quot; : [ ],
+    &quot;description&quot; : &quot;Description test-repo1460034735926.git&quot;,
+    &quot;importInProgress&quot; : false,
+    &quot;head&quot; : &quot;master&quot;
+  }, {
+    &quot;name&quot; : &quot;test-repo1460034756801.git&quot;,
+    &quot;url&quot; : &quot;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/test-repo1460034756801.git&quot;,
+    &quot;type&quot; : &quot;GIT&quot;,
+    &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+    &quot;alternateUrl&quot; : &quot;ssh://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com:2222/qa-dev_test-shared-project1-1460033913915/test-repo1460034756801.git&quot;,
+    &quot;branches&quot; : [ &quot;master&quot; ],
+    &quot;tags&quot; : [ ],
+    &quot;description&quot; : &quot;Description test-repo1460034756801.git&quot;,
+    &quot;importInProgress&quot; : false,
+    &quot;head&quot; : &quot;master&quot;
+  }, {
+    &quot;name&quot; : &quot;test-shared-project1-1460033913915.git&quot;,
+    &quot;url&quot; : &quot;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/s/qa-dev_test-shared-project1-1460033913915/scm/test-shared-project1-1460033913915.git&quot;,
+    &quot;type&quot; : &quot;GIT&quot;,
+    &quot;scmLocation&quot; : &quot;CODE2CLOUD&quot;,
+    &quot;alternateUrl&quot; : &quot;ssh://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com:2222/qa-dev_test-shared-project1-1460033913915/test-shared-project1-1460033913915.git&quot;,
+    &quot;branches&quot; : [ ],
+    &quot;tags&quot; : [ ],
+    &quot;description&quot; : null,
+    &quot;importInProgress&quot; : false,
+    &quot;head&quot; : &quot;master&quot;
+  } ]
+}
+2016-04-07 06:12:38,010 INFO  [oracle.clouddev.test.selenium.tests.base.TestHomePage] Get activities with Rest API call, pulling all activites
+2016-04-07 06:12:38,010 INFO  [oracle.clouddev.test.selenium.util.RestActivitiesList] Get activity list: http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/activity/list/qa-dev_test-shared-project1-1460033913915
+2016-04-07 06:12:38,014 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#84] POST http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/activity/list/qa-dev_test-shared-project1-1460033913915 HTTP/1.1 (user: ADMIN(dcsdevteam/tina.testsuite/Welcome1!))
+2016-04-07 06:12:38,014 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#84] posted content:
+{
+  &quot;types&quot; : [ ],
+  &quot;offset&quot; : 0,
+  &quot;count&quot; : 0
+}
+2016-04-07 06:12:38,014 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#84] cURL: curl -k -u tina.testsuite:Welcome1! -X POST &apos;http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/api/activity/list/qa-dev_test-shared-project1-1460033913915&apos; -H &apos;Content-Type: application/json; charset=UTF-8&apos; --data-binary &apos;{  &quot;types&quot; : [ ],  &quot;offset&quot; : 0,  &quot;count&quot; : 0}&apos;
+2016-04-07 06:12:38,092 INFO  [oracle.clouddev.test.framework.rest.RestClient] [request#84] HTTP/1.1 200 OK
+2016-04-07 06:12:38,092 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#84] Content-Type: application/json;charset=UTF-8
+2016-04-07 06:12:38,092 DEBUG [oracle.clouddev.test.framework.rest.RestClient] [request#84] Content-Length: -- no value --
+2016-04-07 06:12:38,094 DEBUG [oracle.clouddev.test.framework.rest.ResponseProcessors$ResponseParserAdapter] [request#84] Received data:{
+  &quot;queryResult&quot; : {
+    &quot;activities&quot; : [ {
+      &quot;id&quot; : 1616372,
+      &quot;timestamp&quot; : 1460034758000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034756801.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description test-repo1460034756801.git&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616371,
+      &quot;timestamp&quot; : 1460034737000,
+      &quot;type&quot; : &quot;SCM_PUSH&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;commits.size&quot; : &quot;1&quot;,
+        &quot;repository&quot; : &quot;test-repo1460034735926.git&quot;,
+        &quot;commits[0].hash&quot; : &quot;11bac70d11492dbc03f39693c53a520f41bf41ec&quot;,
+        &quot;commits[0].comment&quot; : &quot;Initial Commit for test-repo1460034735926.git&quot;,
+        &quot;branch&quot; : &quot;master&quot;,
+        &quot;head&quot; : &quot;11bac70d11492dbc03f39693c53a520f41bf41ec&quot;,
+        &quot;size&quot; : &quot;1&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616370,
+      &quot;timestamp&quot; : 1460034736000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034735926.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description test-repo1460034735926.git&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616369,
+      &quot;timestamp&quot; : 1460034729000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;qa-test-repo1460034703730.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;DELETED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616368,
+      &quot;timestamp&quot; : 1460034729000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034678174.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;DELETED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616367,
+      &quot;timestamp&quot; : 1460034729000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034723571.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;DELETED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616366,
+      &quot;timestamp&quot; : 1460034729000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034714489.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;DELETED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616363,
+      &quot;timestamp&quot; : 1460034728000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;qa-test-repo1460034664931.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;DELETED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616365,
+      &quot;timestamp&quot; : 1460034728000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034674003.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;DELETED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616364,
+      &quot;timestamp&quot; : 1460034728000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034715115.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;DELETED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616362,
+      &quot;timestamp&quot; : 1460034724000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034723571.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description test-repo1460034723571.git&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616361,
+      &quot;timestamp&quot; : 1460034716000,
+      &quot;type&quot; : &quot;SCM_PUSH&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;commits.size&quot; : &quot;1&quot;,
+        &quot;repository&quot; : &quot;test-repo1460034715115.git&quot;,
+        &quot;commits[0].hash&quot; : &quot;59c697d540e31bb3130ba43cc9c33715484866d1&quot;,
+        &quot;commits[0].comment&quot; : &quot;Initial Commit for test-repo1460034715115.git&quot;,
+        &quot;branch&quot; : &quot;master&quot;,
+        &quot;head&quot; : &quot;59c697d540e31bb3130ba43cc9c33715484866d1&quot;,
+        &quot;size&quot; : &quot;1&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616360,
+      &quot;timestamp&quot; : 1460034715000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034715115.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description test-repo1460034715115.git&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616359,
+      &quot;timestamp&quot; : 1460034715000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034714489.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description test-repo1460034714489.git&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616358,
+      &quot;timestamp&quot; : 1460034710000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;qa-test-repo1460034703730.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description qa-test-repo1460034703730&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616357,
+      &quot;timestamp&quot; : 1460034702000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;qa-test-repo1460034695509.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description qa-test-repo1460034695509&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616356,
+      &quot;timestamp&quot; : 1460034679000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034678174.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description test-repo1460034678174.git&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616355,
+      &quot;timestamp&quot; : 1460034675000,
+      &quot;type&quot; : &quot;SCM_PUSH&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;commits.size&quot; : &quot;1&quot;,
+        &quot;repository&quot; : &quot;test-repo1460034674003.git&quot;,
+        &quot;commits[0].hash&quot; : &quot;1743e89143c16fa7a860a92ba1059d7a6650da2c&quot;,
+        &quot;commits[0].comment&quot; : &quot;Initial Commit for test-repo1460034674003.git&quot;,
+        &quot;branch&quot; : &quot;master&quot;,
+        &quot;head&quot; : &quot;1743e89143c16fa7a860a92ba1059d7a6650da2c&quot;,
+        &quot;size&quot; : &quot;1&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616354,
+      &quot;timestamp&quot; : 1460034674000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-repo1460034674003.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description test-repo1460034674003.git&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616352,
+      &quot;timestamp&quot; : 1460034670000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;qa-test-repo1460034664931.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;repoDescription&quot; : &quot;Description qa-test-repo1460034664931&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616353,
+      &quot;timestamp&quot; : 1460034670000,
+      &quot;type&quot; : &quot;SCM_PUSH&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+        &quot;commits.size&quot; : &quot;1&quot;,
+        &quot;repository&quot; : &quot;qa-test-repo1460034664931.git&quot;,
+        &quot;commits[0].hash&quot; : &quot;acd654b6e95fecf340b340ace38d8b319d321310&quot;,
+        &quot;commits[0].comment&quot; : &quot;Initial Commit for qa-test-repo1460034664931.git&quot;,
+        &quot;branch&quot; : &quot;master&quot;,
+        &quot;commits[0].author&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;head&quot; : &quot;acd654b6e95fecf340b340ace38d8b319d321310&quot;,
+        &quot;size&quot; : &quot;1&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616336,
+      &quot;timestamp&quot; : 1460033918000,
+      &quot;type&quot; : &quot;SCM_REPO&quot;,
+      &quot;author&quot; : null,
+      &quot;properties&quot; : {
+        &quot;repoName&quot; : &quot;test-shared-project1-1460033913915.git&quot;,
+        &quot;repoLocation&quot; : &quot;CODE2CLOUD&quot;,
+        &quot;type&quot; : &quot;CREATED&quot;
+      }
+    }, {
+      &quot;id&quot; : 1616335,
+      &quot;timestamp&quot; : 1460033916000,
+      &quot;type&quot; : &quot;PROJECT&quot;,
+      &quot;author&quot; : {
+        &quot;username&quot; : &quot;tina.testsuite&quot;,
+        &quot;fullname&quot; : &quot;Tina Testsuite&quot;,
+        &quot;email&quot; : &quot;devservice.tina@gmail.com&quot;,
+        &quot;gravatarHash&quot; : &quot;90329b1e0d4bd06a80427ac70fbcdd55&quot;
+      },
+      &quot;properties&quot; : {
+      }
+    } ],
+    &quot;totalCount&quot; : 23
+  }
+}
+2016-04-07 06:12:38,094 INFO  [oracle.clouddev.test.selenium.tests.base.TestHomePage] Number of activitites returned: 23
+2016-04-07 06:12:38,094 DEBUG [oracle.clouddev.test.selenium.junit.BrowserSession] navigating to project qa-dev_test-shared-project1-1460033913915 (http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460033913915)
+2016-04-07 06:12:39,730 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (oracle.clouddev.test.selenium.components.Conditions$5@4c59db3e) for element [By.xpath: .//button[@id=&apos;odcs-project-selector&apos;]/span[1]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460033913915.
+2016-04-07 06:12:39,780 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element is visible)) for element [By.id: page-provision] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460033913915.
+2016-04-07 06:12:43,946 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460033913915.
+2016-04-07 06:12:47,087 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460033913915.
+2016-04-07 06:12:47,219 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460033913915.
+2016-04-07 06:12:47,354 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#/projects/qa-dev_test-shared-project1-1460033913915.
+2016-04-07 06:12:48,871 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:12:48,947 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:12:54,154 INFO  [oracle.clouddev.test.selenium.tests.base.TestHomePage] Set activity search text: test-repo1460034756801.git
+2016-04-07 06:12:54,461 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: close-activity-search-button] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:12:54,875 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: close-activity-search-button] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:12:55,346 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element is visible)) for element [By.id: close-activity-search-button] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:12:56,361 INFO  [oracle.clouddev.test.selenium.tests.base.TestHomePage] Set activity search text: 6494437821298348
+2016-04-07 06:12:56,679 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: close-activity-search-button] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:12:57,792 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: close-activity-search-button] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:12:58,041 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element is visible)) for element [By.id: close-activity-search-button] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+    </system-out>
+    </testcase>
+    <testcase classname="oracle.clouddev.test.selenium.tests.base.TestActivitySearch" name="testGlobalSearchBehavior" time="12.790">
+      <properties>
+        <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+        <property name="exec.mainClass" value="oracle.clouddev.test.selenium.RunTests"/>
+        <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_51/jre/lib/amd64"/>
+        <property name="java.vm.version" value="25.51-b03"/>
+        <property name="java.vm.vendor" value="Oracle Corporation"/>
+        <property name="java.vendor.url" value="http://java.oracle.com/"/>
+        <property name="guice.disable.misplaced.annotation.check" value="true"/>
+        <property name="path.separator" value=":"/>
+        <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+        <property name="file.encoding.pkg" value="sun.io"/>
+        <property name="user.country" value="US"/>
+        <property name="sun.java.launcher" value="SUN_STANDARD"/>
+        <property name="sun.os.patch.level" value="unknown"/>
+        <property name="http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+        <property name="user.dir" value="/home/builder/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests"/>
+        <property name="java.runtime.version" value="1.8.0_51-b16"/>
+        <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+        <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_51/jre/lib/endorsed"/>
+        <property name="os.arch" value="amd64"/>
+        <property name="java.io.tmpdir" value="/tmp"/>
+        <property name="line.separator" value="
+"/>
+        <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+        <property name="https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="os.name" value="Linux"/>
+        <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.0.4/bin/m2.conf"/>
+        <property name="sun.jnu.encoding" value="UTF-8"/>
+        <property name="http.proxyPort" value="80"/>
+        <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+        <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+        <property name="java.specification.name" value="Java Platform API Specification"/>
+        <property name="java.class.version" value="52.0"/>
+        <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+        <property name="os.version" value="3.8.13-55.1.1.el6uek.x86_64"/>
+        <property name="user.home" value="/home/builder"/>
+        <property name="user.timezone" value="PST8PDT"/>
+        <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+        <property name="file.encoding" value="UTF-8"/>
+        <property name="java.specification.version" value="1.8"/>
+        <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
+        <property name="user.name" value="builder"/>
+        <property name="java.vm.specification.version" value="1.8"/>
+        <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /home/c2c/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests/pom.xml --batch-mode exec:java -Dexec.mainClass=oracle.clouddev.test.selenium.RunTests -Dexec.args=selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=289 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="java.home" value="/usr/java/jdk1.8.0_51/jre"/>
+        <property name="sun.arch.data.model" value="64"/>
+        <property name="user.language" value="en"/>
+        <property name="java.specification.vendor" value="Oracle Corporation"/>
+        <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+        <property name="java.vm.info" value="mixed mode"/>
+        <property name="java.version" value="1.8.0_51"/>
+        <property name="securerandom.source" value="file:/dev/./urandom"/>
+        <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_51/jre/lib/ext:/usr/java/packages/lib/ext"/>
+        <property name="http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_51/jre/lib/resources.jar:/usr/java/jdk1.8.0_51/jre/lib/rt.jar:/usr/java/jdk1.8.0_51/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_51/jre/lib/jsse.jar:/usr/java/jdk1.8.0_51/jre/lib/jce.jar:/usr/java/jdk1.8.0_51/jre/lib/charsets.jar:/usr/java/jdk1.8.0_51/jre/lib/jfr.jar:/usr/java/jdk1.8.0_51/jre/classes"/>
+        <property name="java.vendor" value="Oracle Corporation"/>
+        <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.0.4"/>
+        <property name="file.separator" value="/"/>
+        <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+        <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+        <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+        <property name="sun.cpu.endian" value="little"/>
+        <property name="https.proxyPort" value="80"/>
+        <property name="exec.args" value="selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=289 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="sun.cpu.isalist" value=""/>
+        <property name="test.selenium.browser.size.h" value="960"/>
+        <property name="test.user.non-admin.name" value="tom.testsuite"/>
+        <property name="test.https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.user.admin.name" value="tina.testsuite"/>
+        <property name="test.user.em-agent.password" value="Welcome1!"/>
+        <property name="test.tag" value="base"/>
+        <property name="test.user.em-agent.fullname" value="Alex Admin"/>
+        <property name="test.selenium.port" value="44000"/>
+        <property name="test.build.number" value="289"/>
+        <property name="test.user.sdi-agent.enabled" value="true"/>
+        <property name="test.timeout.assert.condition" value="30"/>
+        <property name="test.target.version" value="{
+  &quot;buildInformation&quot; : {
+    &quot;gitCommitId&quot; : &quot;84b91eb9e1660e336bb9289583fdf62f88d10e16&quot;,
+    &quot;gitCommitMessage&quot; : &quot;Bug 23012667 - Check for valid ACCS account in the same ID Domain\n&quot;,
+    &quot;buildTime&quot; : &quot;05.04.2016 @ 21:54:38 PDT&quot;,
+    &quot;buildUser&quot; : &quot;Code2Cloud Builder&quot;
+  }
+}"/>
+        <property name="test.build.job" value="dcs_dcs.Release-Selenium-Tests"/>
+        <property name="test.timeout.project.create" value="660"/>
+        <property name="test.user.sdi-agent.name" value="alex.admin"/>
+        <property name="test.selenium.browser" value="firefox"/>
+        <property name="test.http.proxyPort" value="80"/>
+        <property name="test.user.sdi-agent.password" value="Welcome1!"/>
+        <property name="test.user.sdi-agent.fullname" value="Alex Admin"/>
+        <property name="test.timeout.selenium.navigate" value="20"/>
+        <property name="test.target.release" value="16.2.3.0.0"/>
+        <property name="test.byom.ip" value="127.0.0.1"/>
+        <property name="test.byom.port" value="8585"/>
+        <property name="test.notification.type" value="swing"/>
+        <property name="test.data.project.override" value=""/>
+        <property name="test.timeout.selenium.find" value="1"/>
+        <property name="test.user.em-agent.enabled" value="true"/>
+        <property name="test.testEmptyOrg.db.id" value=""/>
+        <property name="test.reviews.timeout.slowdown" value="0"/>
+        <property name="test.http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="test.capture.video" value="true"/>
+        <property name="test.user.non-admin.password" value="Welcome1!"/>
+        <property name="test.user.non-admin.fullname" value="Tom Testsuite"/>
+        <property name="test.user.admin.password" value="Welcome1!"/>
+        <property name="test.notification.history" value="3"/>
+        <property name="test.user.admin.fullname" value="Tina Testsuite"/>
+        <property name="test.capture.screenshots" value="true"/>
+        <property name="test.testEmptyOrg.db.connectString" value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=slc09iwb.us.oracle.com)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=dbpod)))"/>
+        <property name="test.firefox.bin" value=""/>
+        <property name="test.https.proxyPort" value="80"/>
+        <property name="test.develop.offline" value="false"/>
+        <property name="test.timeout.build.buildqueue.polling" value="60"/>
+        <property name="test.output.dir" value="target/test-reports/"/>
+        <property name="test.firefox.allowedHosts" value="localhost,localhost.localdomain"/>
+        <property name="test.testEmptyOrg.db.schema" value="BV2RLPNYEWMR"/>
+        <property name="test.web.url" value="http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/"/>
+        <property name="test.firefox.extensions" value=""/>
+        <property name="test.testEmptyOrg.orgExistsCheck" value="false"/>
+        <property name="test.data.dir" value="data/"/>
+        <property name="test.notification.font.size" value="15"/>
+        <property name="test.testEmptyOrg.service" value="devservice5"/>
+        <property name="test.selenium.start.server" value="false"/>
+        <property name="test.firefox.profile.path" value=""/>
+        <property name="test.selenium.host" value="localhost"/>
+        <property name="test.suite" value="BASE"/>
+        <property name="test.tests" value=""/>
+        <property name="test.user.admin.idm" value="dcsdevteam"/>
+        <property name="test.http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.testMethods" value=""/>
+        <property name="test.reviews.dontDeleteEnviroment" value="false"/>
+        <property name="test.selenium.browser.maximize" value="false"/>
+        <property name="test.firefox.profile.name" value=""/>
+        <property name="test.timeout.build.buildqueue" value="1200"/>
+        <property name="test.user.em-agent.idm" value="dcsdevteam"/>
+        <property name="test.selenium.remote" value="false"/>
+        <property name="test.user.sdi-agent.idm" value="dcsdevteam"/>
+        <property name="test.byom.authToken" value="123456"/>
+        <property name="test.proxy.autodetect" value="false"/>
+        <property name="test.testEmptyOrg.idm" value="dcsdevteam"/>
+        <property name="test.user.non-admin.idm" value="dcsdevteam"/>
+        <property name="test.data.tasks.useexisting" value="false"/>
+        <property name="test.selenium.browser.size.w" value="1280"/>
+        <property name="test.category" value="DEFAULT"/>
+        <property name="test.user.em-agent.name" value="alex.admin"/>
+        <property name="test.timeout.slowdown" value="0"/>
+      </properties>
+    <system-out>
+2016-04-07 06:12:59,185 INFO  [oracle.clouddev.test.selenium.tests.base.TestHomePage] Set activity search text: qa-dev_test-shared-project1-1460033913915
+2016-04-07 06:12:59,468 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:12:59,493 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;reviews&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:12:59,538 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;reviews&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:12:59,582 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;reviews&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:13:00,293 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;reviews&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/reviews/mine_as_owner_all.
+2016-04-07 06:13:00,330 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;reviews&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/reviews/mine_as_owner_all.
+2016-04-07 06:13:05,586 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.id: odcs-nav-tabs] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/reviews/mine_as_owner_all.
+2016-04-07 06:13:05,614 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/reviews/mine_as_owner_all.
+2016-04-07 06:13:05,661 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (NOT (element has style class &apos;oj-disabled&apos;)) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/reviews/mine_as_owner_all.
+2016-04-07 06:13:05,701 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/reviews/mine_as_owner_all.
+2016-04-07 06:13:06,743 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element has style class &apos;oj-active&apos;) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+2016-04-07 06:13:06,796 DEBUG [oracle.clouddev.test.selenium.components.AssertElement] Check condition (element is visible) for element [By.xpath: .//a[@id=&apos;home&apos;] under [By.id: odcs-nav-tabs]] on http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/#projects/qa-dev_test-shared-project1-1460033913915/.
+    </system-out>
+    </testcase>
+    <testcase classname="oracle.clouddev.test.selenium.tests.base.TestActivitySearch" name="_class_destroy_" time="0.000">
+      <properties>
+        <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+        <property name="exec.mainClass" value="oracle.clouddev.test.selenium.RunTests"/>
+        <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_51/jre/lib/amd64"/>
+        <property name="java.vm.version" value="25.51-b03"/>
+        <property name="java.vm.vendor" value="Oracle Corporation"/>
+        <property name="java.vendor.url" value="http://java.oracle.com/"/>
+        <property name="guice.disable.misplaced.annotation.check" value="true"/>
+        <property name="path.separator" value=":"/>
+        <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+        <property name="file.encoding.pkg" value="sun.io"/>
+        <property name="user.country" value="US"/>
+        <property name="sun.java.launcher" value="SUN_STANDARD"/>
+        <property name="sun.os.patch.level" value="unknown"/>
+        <property name="http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+        <property name="user.dir" value="/home/builder/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests"/>
+        <property name="java.runtime.version" value="1.8.0_51-b16"/>
+        <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+        <property name="java.endorsed.dirs" value="/usr/java/jdk1.8.0_51/jre/lib/endorsed"/>
+        <property name="os.arch" value="amd64"/>
+        <property name="java.io.tmpdir" value="/tmp"/>
+        <property name="line.separator" value="
+"/>
+        <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+        <property name="https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="os.name" value="Linux"/>
+        <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.0.4/bin/m2.conf"/>
+        <property name="sun.jnu.encoding" value="UTF-8"/>
+        <property name="http.proxyPort" value="80"/>
+        <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+        <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+        <property name="java.specification.name" value="Java Platform API Specification"/>
+        <property name="java.class.version" value="52.0"/>
+        <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+        <property name="os.version" value="3.8.13-55.1.1.el6uek.x86_64"/>
+        <property name="user.home" value="/home/builder"/>
+        <property name="user.timezone" value="PST8PDT"/>
+        <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+        <property name="file.encoding" value="UTF-8"/>
+        <property name="java.specification.version" value="1.8"/>
+        <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.0.4/boot/plexus-classworlds-2.4.jar"/>
+        <property name="user.name" value="builder"/>
+        <property name="java.vm.specification.version" value="1.8"/>
+        <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f /home/c2c/hudson/workspace/dcs_dcs.Release-Selenium-Tests/selenium-tests/pom.xml --batch-mode exec:java -Dexec.mainClass=oracle.clouddev.test.selenium.RunTests -Dexec.args=selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=289 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="java.home" value="/usr/java/jdk1.8.0_51/jre"/>
+        <property name="sun.arch.data.model" value="64"/>
+        <property name="user.language" value="en"/>
+        <property name="java.specification.vendor" value="Oracle Corporation"/>
+        <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+        <property name="java.vm.info" value="mixed mode"/>
+        <property name="java.version" value="1.8.0_51"/>
+        <property name="securerandom.source" value="file:/dev/./urandom"/>
+        <property name="java.ext.dirs" value="/usr/java/jdk1.8.0_51/jre/lib/ext:/usr/java/packages/lib/ext"/>
+        <property name="http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="sun.boot.class.path" value="/usr/java/jdk1.8.0_51/jre/lib/resources.jar:/usr/java/jdk1.8.0_51/jre/lib/rt.jar:/usr/java/jdk1.8.0_51/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_51/jre/lib/jsse.jar:/usr/java/jdk1.8.0_51/jre/lib/jce.jar:/usr/java/jdk1.8.0_51/jre/lib/charsets.jar:/usr/java/jdk1.8.0_51/jre/lib/jfr.jar:/usr/java/jdk1.8.0_51/jre/classes"/>
+        <property name="java.vendor" value="Oracle Corporation"/>
+        <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.0.4"/>
+        <property name="file.separator" value="/"/>
+        <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+        <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+        <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+        <property name="sun.cpu.endian" value="little"/>
+        <property name="https.proxyPort" value="80"/>
+        <property name="exec.args" value="selenium.browser.size.w=1280 selenium.browser.size.h=960 capture.video=true capture.screenshots=true notification.type=swing notification.history=3 notification.font.size=15 job-release-selenium-tests.properties build.job=dcs_dcs.Release-Selenium-Tests build.number=289 target.release=16.2.3.0.0 timeout.build.buildqueue=1200 timeout.build.buildqueue.polling=60 -s BASE --tag base"/>
+        <property name="sun.cpu.isalist" value=""/>
+        <property name="test.selenium.browser.size.h" value="960"/>
+        <property name="test.user.non-admin.name" value="tom.testsuite"/>
+        <property name="test.https.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.user.admin.name" value="tina.testsuite"/>
+        <property name="test.user.em-agent.password" value="Welcome1!"/>
+        <property name="test.tag" value="base"/>
+        <property name="test.user.em-agent.fullname" value="Alex Admin"/>
+        <property name="test.selenium.port" value="44000"/>
+        <property name="test.build.number" value="289"/>
+        <property name="test.user.sdi-agent.enabled" value="true"/>
+        <property name="test.timeout.assert.condition" value="30"/>
+        <property name="test.target.version" value="{
+  &quot;buildInformation&quot; : {
+    &quot;gitCommitId&quot; : &quot;84b91eb9e1660e336bb9289583fdf62f88d10e16&quot;,
+    &quot;gitCommitMessage&quot; : &quot;Bug 23012667 - Check for valid ACCS account in the same ID Domain\n&quot;,
+    &quot;buildTime&quot; : &quot;05.04.2016 @ 21:54:38 PDT&quot;,
+    &quot;buildUser&quot; : &quot;Code2Cloud Builder&quot;
+  }
+}"/>
+        <property name="test.build.job" value="dcs_dcs.Release-Selenium-Tests"/>
+        <property name="test.timeout.project.create" value="660"/>
+        <property name="test.user.sdi-agent.name" value="alex.admin"/>
+        <property name="test.selenium.browser" value="firefox"/>
+        <property name="test.http.proxyPort" value="80"/>
+        <property name="test.user.sdi-agent.password" value="Welcome1!"/>
+        <property name="test.user.sdi-agent.fullname" value="Alex Admin"/>
+        <property name="test.timeout.selenium.navigate" value="20"/>
+        <property name="test.target.release" value="16.2.3.0.0"/>
+        <property name="test.byom.ip" value="127.0.0.1"/>
+        <property name="test.byom.port" value="8585"/>
+        <property name="test.notification.type" value="swing"/>
+        <property name="test.data.project.override" value=""/>
+        <property name="test.timeout.selenium.find" value="1"/>
+        <property name="test.user.em-agent.enabled" value="true"/>
+        <property name="test.testEmptyOrg.db.id" value=""/>
+        <property name="test.reviews.timeout.slowdown" value="0"/>
+        <property name="test.http.noProxyHosts" value="localhost|127.0.0.1|*.local|*.oraclecorp.com|*.us.oracle.com"/>
+        <property name="test.capture.video" value="true"/>
+        <property name="test.user.non-admin.password" value="Welcome1!"/>
+        <property name="test.user.non-admin.fullname" value="Tom Testsuite"/>
+        <property name="test.user.admin.password" value="Welcome1!"/>
+        <property name="test.notification.history" value="3"/>
+        <property name="test.user.admin.fullname" value="Tina Testsuite"/>
+        <property name="test.capture.screenshots" value="true"/>
+        <property name="test.testEmptyOrg.db.connectString" value="jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=slc09iwb.us.oracle.com)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=dbpod)))"/>
+        <property name="test.firefox.bin" value=""/>
+        <property name="test.https.proxyPort" value="80"/>
+        <property name="test.develop.offline" value="false"/>
+        <property name="test.timeout.build.buildqueue.polling" value="60"/>
+        <property name="test.output.dir" value="target/test-reports/"/>
+        <property name="test.firefox.allowedHosts" value="localhost,localhost.localdomain"/>
+        <property name="test.testEmptyOrg.db.schema" value="BV2RLPNYEWMR"/>
+        <property name="test.web.url" value="http://ucf2c-dcs-release-hub1.opcdeveloper.oracleinternalucf2c.oraclecorp.com/qa-dev/"/>
+        <property name="test.firefox.extensions" value=""/>
+        <property name="test.testEmptyOrg.orgExistsCheck" value="false"/>
+        <property name="test.data.dir" value="data/"/>
+        <property name="test.notification.font.size" value="15"/>
+        <property name="test.testEmptyOrg.service" value="devservice5"/>
+        <property name="test.selenium.start.server" value="false"/>
+        <property name="test.firefox.profile.path" value=""/>
+        <property name="test.selenium.host" value="localhost"/>
+        <property name="test.suite" value="BASE"/>
+        <property name="test.tests" value=""/>
+        <property name="test.user.admin.idm" value="dcsdevteam"/>
+        <property name="test.http.proxyHost" value="www-proxy.us.oracle.com"/>
+        <property name="test.testMethods" value=""/>
+        <property name="test.reviews.dontDeleteEnviroment" value="false"/>
+        <property name="test.selenium.browser.maximize" value="false"/>
+        <property name="test.firefox.profile.name" value=""/>
+        <property name="test.timeout.build.buildqueue" value="1200"/>
+        <property name="test.user.em-agent.idm" value="dcsdevteam"/>
+        <property name="test.selenium.remote" value="false"/>
+        <property name="test.user.sdi-agent.idm" value="dcsdevteam"/>
+        <property name="test.byom.authToken" value="123456"/>
+        <property name="test.proxy.autodetect" value="false"/>
+        <property name="test.testEmptyOrg.idm" value="dcsdevteam"/>
+        <property name="test.user.non-admin.idm" value="dcsdevteam"/>
+        <property name="test.data.tasks.useexisting" value="false"/>
+        <property name="test.selenium.browser.size.w" value="1280"/>
+        <property name="test.category" value="DEFAULT"/>
+        <property name="test.user.em-agent.name" value="alex.admin"/>
+        <property name="test.timeout.slowdown" value="0"/>
+      </properties>
+    </testcase>
+  </testsuite>
